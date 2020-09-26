@@ -1,0 +1,20 @@
+.form__row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.form__age-input {
+	display:flex;
+	flex-direction: column;
+}
+.form__question {
+}
+.form__element{
+	border: 2px solid blue;
+}
+.form__favourites-input {
+	display: flex;
+	flex-direction: column;
+}
+.form__text-input {}
+.form__submit-and-redirect {}
