@@ -8,6 +8,7 @@
 	flex-direction: column;
 }
 .form__question {
+	margin-bottom: 10px;
 }
 .form__element{
 	border: 2px solid blue;

@@ -1,5 +1,9 @@
+* {
+	box-sizing: border-box;
+}
+
 body{
-	background-image: url('images/dark_wood.png');
+	background-image: url('../images/dark_wood.png');
 }
 
 .wrapper{
@@ -16,7 +20,7 @@ body{
 }
 
 .container{
-	background-image: url("images/concrete-texture.png");
+	background-image: url("../images/concrete-texture.png");
 	max-width: 720px;
 	margin: 0 auto;
 	border-radius: 14px;
