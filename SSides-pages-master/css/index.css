@@ -1,0 +1,53 @@
+.content-box {
+	position: relative;
+	margin:	auto auto;
+	height: 400px;
+	width: 300px;
+	background-image: url('../images/concrete-texture.png');
+
+}
+
+.upper-triangle {
+	position: absolute;
+	top: 0;
+	height: 75%;
+	width: 100%;
+	background-image: url(../images/triangle-bg.png);
+	clip-path: polygon(0 0, 100% 0, 100% 96%);
+	z-index: 0;
+}
+
+.element__row{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	display:flex;
+	transform: skewY(35deg);
+	justify-content: space-around;
+	align-items: center;
+	z-index: 2;
+}
+
+.element{
+	width: 32px;
+	height: 32px;
+	background-image: url('../images/MoralityLogo.png');
+	transform: skewY(-35deg);
+}
+.lower-triangle {
+	position: absolute;
+	bottom: 0;
+	height: 75%;
+	width: 100%;
+	background-image: url(../images/triangle-bg.png);
+	clip-path: polygon(0 0, 4% 98%, 100% 100%);
+	z-index: 1;
+}
+
+.triangle-div {
+	
+}
+
+.triangle-link {
+	
+}

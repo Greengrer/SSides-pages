@@ -1,0 +1,33 @@
+.main-container{
+	margin-top: 100px;
+}
+.form__row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.form__age-input {
+	display:flex;
+	flex-direction: column;
+}
+.form__question {
+	margin-bottom: 10px;
+}
+.form__element{
+	margin: 5px 12px 12px;
+	padding: 5px 5px;
+	border-radius: 15px;
+	border: 2px solid #10258d;
+}
+.form__favourites-input {
+	display: flex;
+	flex-direction: column;
+}
+.option{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.form__text-input {}
+.form__submit-and-redirect {
+}
