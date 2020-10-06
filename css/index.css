@@ -1,10 +1,8 @@
 .content-box {
 	position: relative;
 	margin:	auto auto;
-	height: 400px;
-	width: 300px;
-	background-image: url('../images/concrete-texture.png');
-
+	height: 600px;
+	width: 450px;
 }
 
 .upper-triangle {
@@ -19,21 +17,21 @@
 
 .element__row{
 	position: absolute;
-	top: 50%;
+	top: 43.75%;
 	left: 0;
 	display:flex;
-	transform: skewY(35deg);
+	transform: skewY(44.5deg);
 	justify-content: space-around;
 	align-items: center;
 	z-index: 2;
 }
 
 .element{
-	width: 32px;
-	height: 32px;
-	background-image: url('../images/MoralityLogo.png');
-	transform: skewY(-35deg);
+	width: 75px;
+	height: 75px;
+	transform: skewY(-44.5deg);
 }
+
 .lower-triangle {
 	position: absolute;
 	bottom: 0;

@@ -9,80 +9,106 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<div class="wrapper">
-    <main class="content">
-        <div class="container main-container">
-            <form action="index.html">
-                <div class="form__row">
-                    <div class="form__age-input form__element">
-                        <div class="form__question">Age group:</div>
-                        <div class="option">
-                            <input type="radio" id="0-15" name="age" value="0-15">
-                            <label for="0-15"> 0-15</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" id="16-20" name="age" value="16-20">
-                            <label for="16-20"> 16-20</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" id="21-28" name="age" value="21-28">
-                            <label for="21-28"> 21-28</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" id="29-34" name="age" value="29-34">
-                            <label for="other"> 29-34</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" id="35+" name="age" value="35+">
-                            <label for="35+"> 35+</label>
-                        </div>
-                    </div>
-                    <div class="form__favourites-input form__element">
-                        <div class="form__question">Favourite side(s):</div>
-                        <div class="option">
-                            <input type="checkbox" id="Logic" name="Logic" value="Logic">
-                            <label for="Logic"> Logic</label>
-                        </div>
-                        <div class="option">
-                            <input type="checkbox" id="Morality" name="Morality" value="Morality">
-                            <label for="Morality"> Morality</label>
-                        </div>
-                        <div class="option">
-                            <input type="checkbox" id="Creativity" name="Creativity" value="Creativity">
-                            <label for="Creativity"> Creativity</label>
-                        </div>
-                        <div class="option">
-                            <input type="checkbox" id="Anxiety" name="Anxiety" value="Anxiety">
-                            <label for="Anxiety"> Anxiety</label>
-                        </div>
-                        <div class="option">
-                            <input type="checkbox" id="Duke" name="Duke" value="The Duke">
-                            <label for="Duke"> The Duke</label>
-                        </div>
-                        <div class="option">
-                            <input type="checkbox" id="Deceit" name="Deceit" value="Deceit">
-                            <label for="Deceit"> Deceit</label>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="form__text-input form__element">
-                        <p class="description">If you'd like to add anything, put it here!</p>
-                        <textarea rows="5" cols="50" name="additions"></textarea>
-                    </div>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header__row">
+                <div class="return-to-main">
+                    <a href="index.html" class="button header__button">Main</a>
                 </div>
-                <div class="form__submit-and-redirect form__element">
-                    <button type="submit">Submit form, return to main</button>
-                </div>
-            </form>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__row">
-                <div class="footer__text">Greengrer 2020</div>
+                <a href="Media pages/Logic.html" class="Logic">
+                    <img src="images/Logos/LogicLogo-header.png">
+                </a>
+                <a href="Media pages/Morality.html" class="Morality">
+                    <img src="images/Logos/MoralityLogo-header.png">
+                </a>
+                <a href="Media pages/Creativity.html" class="Creativity">
+                    <img src="images/Logos/CreativityLogo-header.png">
+                </a>
+                <a href="Media pages/Anxiety.html" class="Anxiety">
+                    <img src="images/Logos/AnxietyLogo-header.png">
+                </a>
+                <a href="Media pages/Duke.html" class="Duke">
+                    <img src="images/Logos/DukeLogo-header.png">
+                </a>
+                <a href="Media pages/Deceit.html" class="Deceit">
+                    <img src="images/Logos/DeceitLogo-header.png">
+                </a>
+                <a href="Media pages/episodes.html" class="header__link">Episodes</a>
             </div>
         </div>
-    </footer>
-</div>
+        <main class="content">
+            <div class="container main-container">
+                <form action="index.html">
+                    <div class="form__row">
+                        <div class="form__age-input form__element">
+                            <div class="form__question">Age group:</div>
+                            <div class="option">
+                                <input type="radio" id="0-15" name="age" value="0-15">
+                                <label for="0-15">  0-15</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" id="16-20" name="age" value="16-20">
+                                <label for="16-20">  16-20</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" id="21-28" name="age" value="21-28">
+                                <label for="21-28">  21-28</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" id="29-34" name="age" value="29-34">
+                                <label for="other">  29-34</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" id="35+" name="age" value="35+">
+                                <label for="35+">  35+</label>
+                            </div>
+                        </div>
+                        <div class="form__favourites-input form__element">
+                            <div class="form__question">Favourite side(s):</div>
+                            <div class="option">
+                                <input type="checkbox" id="Logic" name="Logic" value="Logic">
+                                <label for="Logic">  Logic</label>
+                            </div>
+                            <div class="option">
+                                <input type="checkbox" id="Morality" name="Morality" value="Morality">
+                                <label for="Morality">  Morality</label>
+                            </div>
+                            <div class="option">
+                                <input type="checkbox" id="Creativity" name="Creativity" value="Creativity">
+                                <label for="Creativity">  Creativity</label>
+                            </div>
+                            <div class="option">
+                                <input type="checkbox" id="Anxiety" name="Anxiety" value="Anxiety">
+                                <label for="Anxiety">  Anxiety</label>
+                            </div>
+                            <div class="option">
+                                <input type="checkbox" id="Duke" name="Duke" value="The Duke">
+                                <label for="Duke">  The Duke</label>
+                            </div>
+                            <div class="option">
+                                <input type="checkbox" id="Deceit" name="Deceit" value="Deceit">
+                                <label for="Deceit">  Deceit</label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="form__text-input form__element">
+                            <p class="description">If you'd like to add anything, put it here!</p>
+                            <textarea rows="15" cols="38" name="additions"></textarea>
+                        </div>
+                    </div>
+                    <div class="form__submit-and-redirect">
+                        <button type="submit" id="submit-button" class="form__element">Submit form, return to main</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="footer__text">Greengrer 2020</div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

@@ -1,23 +1,6 @@
 
 img{max-width: 100%;}
 
-a.element{
-	width:32px;
-	height:32px;
-}
-
-.header {
-	height: 46px;
-	background-color: grey;
-	padding: 7px;
-}
-
-.header__row {
-	display:flex;
-	justify-content:flex-end;
-	align-items:center;
-}
-
 .button-temp {
 	height: 32px;
 	width: 32px;

@@ -1,6 +1,8 @@
 .main-container{
-	margin-top: 100px;
+	top: 23%;
+	position: sticky;
 }
+
 .form__row {
 	display: flex;
 	flex-direction: row;
@@ -12,12 +14,13 @@
 }
 .form__question {
 	margin-bottom: 10px;
+	font-size: 18px;
 }
 .form__element{
 	margin: 5px 12px 12px;
 	padding: 5px 5px;
 	border-radius: 15px;
-	border: 2px solid #10258d;
+	background-color: #F2ECE7;
 }
 .form__favourites-input {
 	display: flex;
@@ -27,7 +30,20 @@
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	margin-bottom: 8px;
 }
-.form__text-input {}
+.form__text-input {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 .form__submit-and-redirect {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#submit-button{
+	margin-left: auto;
+	margin-right: auto;
 }

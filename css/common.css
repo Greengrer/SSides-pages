@@ -1,69 +1,100 @@
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 3px;
 }
 
-body {
-    background-image: url('../images/dark_wood.png');
+body{
+	background-image: url('../images/dark_wood.png');
 }
 
-.wrapper {
+.wrapper{
 
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    border-radius: 14px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	border-radius: 14px;
+}
+
+.header {
+	height: 73px;
+	background-color: #969696;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header__row {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	height: 100%;
+	width: 733.38px;
+}
+
+.content{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header__button{
+	border-radius:20px;
+	font-size: 18px;
+	background-color: #D3D9FF;
+	font-family: "Lucida console", monospace;
+	padding: 5px 10px;
+	height: 23px;
+}
+
+.header__link{
+	font-size: 22px;
+	font-family: "Times New Roman";
+	font-style: italic;
+	font-weight: 500;
+	text-decoration-color: black;
+	margin-right: 27.404px;
+}
+
+.Logic{
+}
+
+.Morality{
+}
+
+.Creativity{
+}
+
+.Anxiety{
+}
+
+.Duke{
+}
+
+.Deceit{
+}
+
+.container{
+	background-image: url("../images/concrete-texture.png");
+	max-width: 1080px;
+	margin: 0 auto;
+	border-radius: 14px;
 }
 
 
-.content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.footer{	
+	background-color: #f4f4f4;
+	border-radius: 14px;
 }
 
-.container {
-    background-image: url("../images/concrete-texture.png");
-    max-width: 720px;
-    margin: 0 auto;
-    border-radius: 14px;
+.footer__row{
+	display: flex;
+
+
+	justify-content: center;
+	align-items: center;
+	height: 45px;
 }
 
+.footer__text{
 
-.footer {
-    background-color: #f4f4f4;
-    border-radius: 14px;
-}
-
-.footer__row {
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0;
-}
-
-.button {
-    width: 130px;
-    height: 35px;
-    border: 1px #ccc solid;
-    background-color: orange;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: #3f3b6c;
-    font-weight: 500;
-}
-
-.button:hover {
-    background-color: transparent;
-}
-
-.button:active {
-    background-color: #3f3b6c;
-    border-color: orange;
-    color: orange;
 }
